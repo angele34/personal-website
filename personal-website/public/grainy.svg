@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="grain">
+      <feTurbulence
+        type="turbulence" 
+        baseFrequency="0.98"
+        stitchTiles="stitch"
+      />
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.35" /> <!-- Adjust slope for opacity -->
+      </feComponentTransfer>
+    </filter>
+  </defs>
+</svg>
