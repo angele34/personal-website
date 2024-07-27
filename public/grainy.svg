@@ -7,7 +7,7 @@
         stitchTiles="stitch"
       />
       <feComponentTransfer>
-        <feFuncA type="linear" slope="0.35" /> <!-- Adjust slope for opacity -->
+        <feFuncA type="linear" slope="0.35" /> <!-- Opacity -->
       </feComponentTransfer>
     </filter>
   </defs>
