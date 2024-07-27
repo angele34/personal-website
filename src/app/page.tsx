@@ -7,13 +7,13 @@ import Footer from '@/components/footer';
 
 export default function App() {
   return (
-    <div className="absolute min-h-screen overflow-hidden flex flex-col">
+    <div className="relative min-h-screen overflow-hidden flex flex-col">
       {/* Grainy bg */}
       <div className="absolute top-0 left-0 w-full h-full bg-transparent z-[-1]" style={{ filter: 'url(/grainy.svg#grain)' }}></div>
       
       {/* Components */}
       <Navigation />
-      <div className="relative z-10 pb-20">
+      <div className="relative z-10 pb-10">
         <Hero />
       </div>
       

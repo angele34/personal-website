@@ -14,7 +14,7 @@ export default function Hero() {
         py-40 
         px-40
         
-        xs:px-0
+        xs:px-4
         sm:px-4 
         md:py-20 
         md:px-8 
