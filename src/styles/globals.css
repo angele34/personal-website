@@ -31,47 +31,9 @@ body {
   }
 }
 
-.container {
-  position: relative;
-  overflow: hidden;
-}
-
-.container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: transparent;
-  filter: url('/grainy.svg#grain');
+.custom-top {
+  top: calc(50% - 30px);
 }
 
 
-h1 {
-  color: rgba(255, 255, 255, 0.927);
-  font-size: 2.20rem;
-  margin-bottom: 2.3rem;
-  font-size: 70px;
-  line-height: 1.1em;
-  font-family: Helvetica;
-}
-
-p {
-  letter-spacing: 0.02em;
-  color: #aeb0aef1;
-  margin-bottom: 1.25rem;
-  font-size: 18px;
-  font-family: 'Inter', sans-serif;
-  line-height: 1.2em;
-  /* padding-right: 17.5rem; */
-}
-
-.blur-100 {
-  filter: blur(100px);
-}
-
-.custom-border-top {
-  border-top: 1px solid #2d2d2de9;
-}
 

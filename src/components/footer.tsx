@@ -3,10 +3,24 @@ import '../styles/globals.css';
 
 export default function footer() {
   return (
-    <div className="footer container custom-border-top">
-      <div className='flex justify-center py-10 px-40 mt-5 ml-2'>
-        <p className="text-base wider font-medium z-50">
-            <span className="text-customGreenLight">© 2024 Arwen Encarnacion. </span>
+    <div className="border-t border-[#2d2d2de9] border-[1px] bottom-0 ">
+      <div className='flex justify-center
+        xs:py-4 xs:px-2 xs:mt-2 xs:ml-1
+        sm:py-6 sm:px-4 sm:mt-3 sm:ml-1.5
+        md:py-8 md:px-8 md:mt-4 md:ml-2
+        lg:py-10 lg:px-16 lg:mt-5 lg:ml-2
+        xl:py-12 xl:px-20 xl:mt-6 xl:ml-2.5
+        2xl:py-14 2xl:px-24 2xl:mt-8 2xl:ml-3'>
+          
+        <p className="wider font-medium font-inter content text-content-color
+          xs:text-p-xs
+          sm:text-p-sm
+          md:text-p-md
+          lg:text-p-lg
+          xl:text-p
+          2xl:text-p
+          ">
+            <span className="text-customGreenLight ">© Arwen Encarnacion. </span>
             All rights reserved. This site is built with NextJS and Tailwind CSS, designed on Framer.
         </p>
       </div>

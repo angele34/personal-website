@@ -1,6 +1,5 @@
 // src/components/Navbar.tsx
 import React from "react";
-import Image from "next/image";
 import "../styles/navbar.css";
 
 import { IoCubeOutline } from "react-icons/io5";
