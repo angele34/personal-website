@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 export default function footer() {
@@ -21,7 +22,17 @@ export default function footer() {
           tracking-wider
           ">
             <span className="text-customGreenLight ">© Arwen Encarnacion. </span>
-            All rights reserved. This site is built with NextJS and Tailwind CSS, designed on Framer.
+            All rights reserved. This site is built with {''}
+            <Link href="https://nextjs.org/" legacyBehavior> 
+              <a className= "hover:underline hover:text-customGreenLight hover:opacity-90 transition delay-200 ease-in-out" target="_blank" rel="noopener noreferrer">NextJS</a>
+            </Link>{' '}
+            and {''}
+            <Link href="https://tailwindcss.com/" legacyBehavior>
+              <a className= "hover:underline hover:text-customGreenLight hover:opacity-90 transition delay-200 ease-in-out" target="_blank" rel="noopener noreferrer">Tailwind CSS</a>
+            </Link>, designed on {' '} 
+            <Link href="https://www.framer.com/" legacyBehavior> 
+              <a className= "hover:underline hover:text-customGreenLight hover:opacity-90 transition delay-200 ease-in-out" target="_blank" rel="noopener noreferrer">Framer. </a>
+            </Link>
         </p>
       </div>
     </div>
