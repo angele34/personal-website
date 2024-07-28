@@ -15,8 +15,8 @@ export default function footer() {
           xs:text-p-footer
           sm:text-p-sm
           md:text-p-md
-          lg:text-p-lg
-          xl:text-p
+          lg:text-p-footer-lg
+          xl:text-p-footer-lg
           2xl:text-p
           tracking-wider
           ">

@@ -16,6 +16,7 @@ module.exports = {
         // p
         'p-xs': ['0.9rem', '1.4rem'],
         'p-footer': ['0.8rem', '1.2rem'],
+        'p-footer-lg': ['1.08rem', '1.2rem'],
         'p-sm': ['1.1rem', '1.5rem'],
         'p-md': ['1.2rem', '1.6rem'],
         'p-lg': ['1.5rem', '2rem'],
