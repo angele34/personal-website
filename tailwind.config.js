@@ -24,9 +24,9 @@ module.exports = {
 
         // h1
         'h1-xs': ['2.4rem', '3rem'],
-        'h1-sm': ['3.3rem', '4rem'],
-        'h1-xl': ['5.625rem', '6.75rem'],
-        'h1': ['4.375rem', '5.5rem'],
+        'h1-sm': ['3.6rem', '4rem'],
+        'h1-xl': ['4.6rem', '6.75rem'],
+        'h1': ['4.1rem', '5.5rem'],
         'h1-md': ['2rem', '2.5rem'],
       },
 
@@ -49,6 +49,7 @@ module.exports = {
       fontFamily: {
         helvetica: ['Helvetica', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        instrument_sans: ['Instrument Sans', 'sans-serif'],
       },
 
       letterSpacing: {

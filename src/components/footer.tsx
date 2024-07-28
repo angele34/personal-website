@@ -7,8 +7,8 @@ export default function footer() {
       <div className='flex justify-center
         xs:py-4 xs:px-4 xs:mt-2 xs:ml-4
         sm:py-6 sm:px-4 sm:mt-3 sm:ml-4
-        md:py-8 md:px-8 md:mt-4 md:ml-4
-        lg:py-8 lg:px-16 lg:mt-4 lg:ml-2
+        md:py-8 md:px-8 md:mt-4 md:ml-8
+        lg:py-8 lg:px-16 lg:mt-4 lg:ml-4
         xl:py-8 xl:px-20 xl:mt-4 xl:ml-2.5
         2xl:py-12 2xl:px-24 2xl:mt-8 2xl:ml-3'>
           
@@ -24,14 +24,14 @@ export default function footer() {
             <span className="text-customGreenLight ">© Arwen Encarnacion. </span>
             All rights reserved. This site is built with {''}
             <Link href="https://nextjs.org/" legacyBehavior> 
-              <a className= "hover:underline hover:text-customGreenLight hover:opacity-90 transition delay-200 ease-in-out" target="_blank" rel="noopener noreferrer">NextJS</a>
+              <a className= " hover:text-customGreenLight hover:opacity-90 transition delay-200 ease-in-out" target="_blank" rel="noopener noreferrer">NextJS</a>
             </Link>{' '}
             and {''}
             <Link href="https://tailwindcss.com/" legacyBehavior>
-              <a className= "hover:underline hover:text-customGreenLight hover:opacity-90 transition delay-200 ease-in-out" target="_blank" rel="noopener noreferrer">Tailwind CSS</a>
+              <a className= " hover:text-customGreenLight hover:opacity-90 transition delay-200 ease-in-out" target="_blank" rel="noopener noreferrer">Tailwind CSS</a>
             </Link>, designed on {' '} 
             <Link href="https://www.framer.com/" legacyBehavior> 
-              <a className= "hover:underline hover:text-customGreenLight hover:opacity-90 transition delay-200 ease-in-out" target="_blank" rel="noopener noreferrer">Framer. </a>
+              <a className= " hover:text-customGreenLight hover:opacity-90 transition delay-200 ease-in-out" target="_blank" rel="noopener noreferrer">Framer. </a>
             </Link>
         </p>
       </div>

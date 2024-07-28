@@ -41,8 +41,8 @@ export default function Hero() {
           </h1>
           <div className="pr-4 md:pr-8 lg:pr-16">
             <p className=' text-content-color 
-              font-inter 
-
+              font-instrument_sans
+              font-normal
               xs:text-p-xs
               sm:text-p-sm
               md:text-p-md
@@ -57,8 +57,8 @@ export default function Hero() {
               Hi! I&apos;m Arwen, a first-year Computer Science student at DLSU. I&apos;m currently fascinated with Machine Learning, Web Development, and Quantum Computing.
             </p>
             <p className='  text-content-color 
-              font-inter 
-
+              font-instrument_sans
+              font-normal
               xs:text-p-xs
               sm:text-p-sm
               md:text-p-md

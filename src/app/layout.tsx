@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Inter, Chivo_Mono } from "next/font/google";
+import { Inter, Chivo_Mono, Instrument_Sans } from "next/font/google";
 
 import '../styles/globals.css';
 
 const inter = Inter({ subsets: ["latin"] });
 const chivoMono = Chivo_Mono({ subsets: ["latin"], weight: ["100", "400", "700"] });
+const instrumentSans = Instrument_Sans({ subsets: ["latin"], weight: ["400", "400", "700"] });
 
 export const metadata: Metadata = {
   title: "personal-website",
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${chivoMono.className}`}>
+      <body className={`${chivoMono.className}`}>
         {children}
       </body>
     </html>
