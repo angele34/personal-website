@@ -10,25 +10,23 @@ module.exports = {
     extend: {
       
       fontSize: {
-        sm: '0.8rem',
-        base: '1rem',
-        xl: '1.25rem',
-        '2xl': '1.563rem',
-        '3xl': '1.953rem',
+        '2xl': ['1.563rem', '2rem'],
+        '3xl': ['1.953rem', '2.5rem'],
 
         // p
-        'p-xs': '0.8rem',
-        'p-sm': '1.1rem', 
-        'p-md': '1.25rem',
-        'p-lg': '1.563rem', 
-        'p': '1.125rem',
+        'p-xs': ['0.9rem', '1.4rem'],
+        'p-footer': ['0.8rem', '1.2rem'],
+        'p-sm': ['1.1rem', '1.5rem'],
+        'p-md': ['1.2rem', '1.6rem'],
+        'p-lg': ['1.5rem', '2rem'],
+        'p': ['1.15rem', '1.5rem'],
 
         // h1
-        'h1-xs': '2.2rem', 
-        'h1-sm': '3.3rem',
-        'h1-xl': '5.625rem', 
-        'h1': '4.375rem', 
-        'h1-md': '2rem',
+        'h1-xs': ['2.4rem', '3rem'],
+        'h1-sm': ['3.3rem', '4rem'],
+        'h1-xl': ['5.625rem', '6.75rem'],
+        'h1': ['4.375rem', '5.5rem'],
+        'h1-md': ['2rem', '2.5rem'],
       },
 
       screens: {
@@ -53,9 +51,9 @@ module.exports = {
       },
 
       letterSpacing: {
-        wider: '0.01em',
-        widest: '0.2em',
-        'content-spacing': '0.01em',
+        widest: '0.02em',
+        wider: '0.03em',
+        wide: '0.05em',
       },
 
       fontWeight: {

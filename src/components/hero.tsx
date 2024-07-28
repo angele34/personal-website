@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="relative pb-10 mb-10 px-4 sm:px-8 md:px-16 lg:px-32">
 
       {/* Gradient Circle on the Left */}
-      <div className="absolute custom-top left-[55%] md:left-[30%] lg:left-[40%] transform -translate-y-1/2 w-[32rem] h-[25rem] bg-gradient-radial from-[#91aa5f]/30 to-[#121010]/30 blur-[100px] opacity-80 rounded-full z-0">
+      <div className="absolute custom-top left-[57%] md:left-[30%] transform -translate-y-1/2 w-[30rem] h-[26rem] bg-gradient-radial from-[#91aa5f]/30 to-[#121010]/30 blur-[100px] opacity-80 rounded-full z-0">
       </div>
       
       {/* Content */}
@@ -14,7 +14,7 @@ export default function Hero() {
         py-40 
         px-40
         
-        xs:px-4
+        xs:px-8
         sm:px-4 
         md:py-20 
         md:px-8 
@@ -33,9 +33,8 @@ export default function Hero() {
             xl:text-h1
             2xl:text-h1
     
-            mb-6
+            mb-8
             md:mb-8 
-            leading-[1.25]
             '>
             Arwen Encarnacion
             <span className="text-customGreen">.</span>
@@ -53,7 +52,7 @@ export default function Hero() {
 
               mb-4 
               md:mb-6 
-              tracking-wide
+              tracking-widest
               '>
               Hi! I&apos;m Arwen, a first-year Computer Science student at DLSU. I&apos;m currently fascinated with Machine Learning, Web Development, and Quantum Computing.
             </p>
@@ -67,12 +66,11 @@ export default function Hero() {
               xl:text-p
               2xl:text-p
 
-             
               mb-4 
               md:mb-6 
-              tracking-wide
+              tracking-widest
              '>
-            When I&apos;m not behind my computer, I enjoy calligraphy, writing poetry, reading books, and playing electric guitar. If you want to learn more about me, check out my GitHub to see what awesome projects I&apos;ve worked on!
+            When I&apos;m not behind my computer, I enjoy calligraphy, writing poetry, reading books, and playing electric guitar. If you wish to connect with me, feel free to check out any of my socials!
             </p>
           </div>
         </div>
