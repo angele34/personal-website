@@ -20,7 +20,7 @@ export default function Navbar() {
         <a href="#" className=" text-white font-medium text-p-md px-2 py-1 no-underline">School</a>
         <a href="#" className=" text-white font-medium text-p-md px-2 py-1 no-underline">About</a>
         <a href="#" className=" text-white font-medium text-p-md px-2 py-1 no-underline">Projects</a>
-        <a href="#" className=" text-white font-medium text-p-md px-2 py-1 no-underline">Blog</a>
+        {/* <a href="#" className=" text-white font-medium text-p-md px-2 py-1 no-underline">Blog</a> */}
       </div>
 
       <div className="flex items-center space-x-4 pr-20">

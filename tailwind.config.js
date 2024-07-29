@@ -18,7 +18,7 @@ module.exports = {
         'p-footer': ['0.8rem', '1.2rem'],
         'p-footer-lg': ['1.08rem', '1.2rem'],
         'p-sm': ['1.1rem', '1.5rem'],
-        'p-md': ['1.2rem', '1.6rem'],
+        'p-md': ['1.3rem', '1.6rem'],
         'p-lg': ['1.5rem', '2rem'],
         'p': ['1.15rem', '1.5rem'],
 
@@ -31,7 +31,8 @@ module.exports = {
       },
 
       screens: {
-        'xs': {'max': '409px'},
+        'xxs': {'max': '280px'},
+        'xs': {'max': '409px'}, // 'min': '281px', 
         'sm': {'min': '410px', 'max': '539px'},
         'md': {'min': '540px', 'max': '1023px'},
         'lg': {'min': '1024px', 'max': '1279px'},
