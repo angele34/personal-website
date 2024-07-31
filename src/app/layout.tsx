@@ -8,7 +8,7 @@ const chivoMono = Chivo_Mono({ subsets: ["latin"], weight: ["100", "400", "700"]
 const instrumentSans = Instrument_Sans({ subsets: ["latin"], weight: ["400", "400", "700"] });
 
 export const metadata: Metadata = {
-  title: "Arwen Encarnacion",
+  title: "Arwen's Webpage",
 };
 
 export default function RootLayout({

@@ -24,12 +24,14 @@ export default function Hero() {
             text-opacity-90 
             xs:text-h1-xs
             sm:text-h1-sm 
-            md:text-h1
+            md:text-h1-md
             lg:text-h1
             xl:text-h1
             2xl:text-h1
             mb-8
-            md:mb-8'>
+            text-wrap
+            
+            '>
             Arwen Encarnacion<span className="text-customGreen">.</span></h1>
           <div className="pr-4 md:pr-8 lg:pr-16">
             <p className=' text-content-color 
@@ -44,6 +46,7 @@ export default function Hero() {
               mb-4 
               md:mb-6 
               tracking-widest
+              text-wrap
               '>
               Hi! I&apos;m Arwen, a student at DLSU majoring in Computer Science. I&apos;m currently fascinated with Machine Learning and Quantum Computing.
             </p>
@@ -59,6 +62,7 @@ export default function Hero() {
               mb-4 
               md:mb-6 
               tracking-widest
+              text-wrap
              '>
             When I&apos;m not behind my computer, I enjoy calligraphy, writing poetry, reading books, and playing electric guitar. If you wish to connect with me, feel free to check out any of my socials!
             </p>
