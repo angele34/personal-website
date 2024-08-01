@@ -8,32 +8,31 @@ module.exports = {
   ],
   theme: {
     extend: {
-      
       fontSize: {
         'p-footer': ['0.8rem', '1.2rem'],
         'p-footer-lg': ['1.08rem', '1.2rem'],
-          // p
-          'p-xxs': ['0.8rem', '1.2rem'],  
-          'p-xs': ['0.9rem', '1.4rem'],        
-          'p-md': ['1.1rem', '1.6rem'],        
-          'p-lg': ['1.11rem', '1.8rem'],       
-          'p-xl': ['1.15rem', '1.8rem'],          
-          'p-2xl': ['1.4rem', '2.2rem'],       
-        
-          // h1
-          'h1-xxs': ['2rem', '2.5rem'],        
-          'h1-xs': ['2.4rem', '3rem'],         
-          'h1-sm': ['3rem', '4rem'],           
-          'h1-md': ['3.5rem', '4.5rem'],       
-          'h1-lg': ['4rem', '5rem'],           
-          'h1-xl': ['4.5rem', '6rem'],         
-          'h1-2xl': ['5rem', '7rem'],          
-        
+        // p
+        'p-xxs': ['0.8rem', '1.2rem'],  
+        'p-xs': ['0.9rem', '1.4rem'],        
+        'p-md': ['1.1rem', '1.4rem'],        
+        'p-lg': ['1.11rem', '1.4rem'],       
+        'p-xl': ['1.15rem', '1.6rem'],          
+        'p-2xl': ['1.4rem', '2.2rem'],       
+      
+        // h1
+        'h1-xxs': ['2rem', '2.5rem'],        
+        'h1-xs': ['2.4rem', '3rem'],         
+        'h1-sm': ['3rem', '4rem'],           
+        'h1-md': ['3.5rem', '4.5rem'],       
+        'h1-lg': ['4rem', '5rem'],           
+        'h1-xl': ['4.3rem', '6rem'],         
+        'h1-2xl': ['5rem', '7rem'],          
+      
       },
 
       screens: {
         'xxs': {'max': '287px'},
-        'xs': {'min': '288px', 'max': '409px'}, // 'min': '281px', 
+        'xs': {'min': '288px', 'max': '409px'},
         'sm': {'min': '410px', 'max': '539px'},
         'md': {'min': '540px', 'max': '1021px'},
 
@@ -42,24 +41,25 @@ module.exports = {
         'xl': {'min': '1280px', 'max': '1535px'},
         '2xl': {'min': '1536px'},
       },
-      
+
+      fontFamily: {
+        helvetica: ['Helvetica', 'sans-serif'],
+        inter: ['Inter', 'sans-serif'],
+        instrument_sans: ['Instrument Sans'],
+        gtWalsheim: ['GT Walsheim'],
+      },
+
+      letterSpacing: {
+        widest: '0.03em',
+        wider: '0.02em',
+        wide: '0.01em',
+      },
+
       colors: {
         'primary': '#FF6363',
         'customGreen': '#70B835',
         'customGreenLight': '#A3C269',
         'content-color': '#aeb0aef1',
-      },
-
-      fontFamily: {
-        helvetica: ['Helvetica', 'sans-serif'],
-        inter: ['Inter', 'sans-serif'],
-        instrument_sans: ['Instrument Sans', 'sans-serif'],
-      },
-
-      letterSpacing: {
-        widest: '0.02em',
-        wider: '0.03em',
-        wide: '0.05em',
       },
 
       fontWeight: {
