@@ -45,7 +45,7 @@ module.exports = {
       fontFamily: {
         helvetica: ['Helvetica', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
-        instrument_sans: ['Instrument Sans'],
+        instrument_sans: ['Instrument Sans', 'sans-serif'],
         gtWalsheim: ['GT Walsheim'],
       },
 
