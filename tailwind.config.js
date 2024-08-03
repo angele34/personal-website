@@ -28,7 +28,7 @@ module.exports = {
         'h1-xl': ['4.3rem', '6rem'],         
         'h1-2xl': ['5rem', '7rem'],   
         
-        'nav': ['1.25rem', '1.4rem'],
+        'nav': ['1.28rem', '1.4rem'],
       
       },
 
