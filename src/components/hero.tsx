@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div className="relative pb-10 mb-10 px-4 sm:px-8 md:px-16 lg:px-32 flex justify-center">
       {/* Gradient Circle on the Left */}
-      <div className="absolute custom-top left-[57%] md:left-[30%] sm:left-[28%] xs:left-[25%] transform -translate-y-1/2 w-[30rem] h-[26rem] bg-gradient-radial from-[#91aa5f]/30 to-[#121010]/30 blur-[100px] opacity-80 rounded-full z-0">
+      <div className="absolute custom-top left-[57%] md:left-[45%] sm:left-[28%] xs:left-[25%] transform -translate-y-1/2 w-[30rem] h-[26rem] bg-gradient-radial from-[#91aa5f]/30 to-[#121010]/30 blur-[100px] opacity-80 rounded-full z-0">
       </div>
       {/* Content */}
       <div className="relative 
