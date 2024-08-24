@@ -16,7 +16,7 @@ module.exports = {
         'p-xs': ['0.9rem', '1.4rem'],        
         'p-md': ['1.1rem', '1.4rem'],        
         'p-lg': ['1.11rem', '1.4rem'],       
-        'p-xl': ['1.15rem', '1.6rem'],          
+        'p-xl': ['1.15rem', '1.7rem'],          
         'p-2xl': ['1.4rem', '2.2rem'],       
       
         // h1
@@ -24,7 +24,7 @@ module.exports = {
         'h1-xs': ['2.4rem', '3rem'],         
         'h1-sm': ['3rem', '4rem'],           
         'h1-md': ['3.5rem', '4.5rem'],       
-        'h1-lg': ['4rem', '5rem'],           
+        'h1-lg': ['4rem', '4.5rem'],           
         'h1-xl': ['4.3rem', '6rem'],         
         'h1-2xl': ['5rem', '7rem'],   
         

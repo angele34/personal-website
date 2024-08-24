@@ -16,12 +16,12 @@ export default function App() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1.5 }}
         className="relative z-10 flex-grow"
       >
         <Navigation />
 
-        <div className="relative z-10 pb-10">
+        <div className="relative z-10 pb-10 pt-4">
           <Hero />
         </div>
         
