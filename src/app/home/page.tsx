@@ -3,11 +3,11 @@ import React from 'react';
 import { motion } from "framer-motion";
 
 // Components
-import Navigation from '../components/navbar';
-import Hero from '../components/hero';
+import Navigation from '../../components/navbar';
+import Hero from '../../components/hero';
 import Footer from '@/components/footer';
 
-export default function App() {
+export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden flex flex-col">
       {/* Grainy bg */}

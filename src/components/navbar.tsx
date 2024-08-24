@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from 'next/link'
 import Iconoir from 'iconoir/icons/iconoir.svg';
 
 import { IoCubeOutline } from "react-icons/io5";
@@ -10,10 +10,12 @@ export default function Navbar() {
   return (
     <div className="flex justify-between fixed top-0 w-full z-20 border-b border-[#2d2d2de9]">
       <div className=" flex items-center pt-4 pb-4 xs:pl-0 sm:pl-0 md:pl-16 lg:pl-32 xl:pl-36 text-white font-medium text-nav no-underline">
+        <Link href="/home">
         <IoCubeOutline size={30} className="cursor-pointer grid ml-8 mr-2 text-white hover:text-customGreenLight transition delay-100"/>
-        <a href="#" className=" px-2 py-1 hover:text-customGreenLight transition delay-100">School</a>
+        </Link>
+        <Link href="school" className=" px-2 py-1 hover:text-customGreenLight transition delay-100">School</Link>
         <a href="#" className=" px-2 py-1 hover:text-customGreenLight transition delay-100">About</a>
-        <a href="#" className=" px-2 py-1 hover:text-customGreenLight transition delay-100 ">Projects</a>
+        <Link href="/projects" className=" px-2 py-1 hover:text-customGreenLight transition delay-100 ">Projects</Link>
       </div>
 
       <div className="flex items-center space-x-4 pr-20">

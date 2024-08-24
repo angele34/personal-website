@@ -24,7 +24,7 @@ export default function footer() {
           2xl:text-p
           tracking-wider
           ">
-            <span className="text-customGreenLight ">© Arwen Encarnacion. </span>
+            <span className="text-customGreenLight ">© 2024 Arwen Encarnacion. </span>
             All rights reserved. This site is built with {''}
             <Link href="https://nextjs.org/" legacyBehavior> 
               <a className= " hover:text-customGreenLight hover:opacity-90 transition delay-120 " target="_blank" rel="noopener noreferrer">NextJS</a>
