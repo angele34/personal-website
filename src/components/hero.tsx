@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/globals.css';
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Hero() {
   return (
@@ -21,12 +22,7 @@ export default function Hero() {
         xl:mr-52
         ">
         <div className='pt-16 md:pt-32'>
-          <h1 className='text-white 
-            break-words
-            font-helvetica
-            font-semibold
-            tracking-widest
-            text-opacity-90 
+          <h1 className='text-white break-words font-helvetica font-semibold tracking-widest text-opacity-90 
             xxs:text-h1-xxs
             xs:text-h1-xs
             sm:text-h1-sm 
@@ -36,7 +32,23 @@ export default function Hero() {
             2xl:text-h1-2xl
             mb-8
             '>
-            Arwen Encarnacion<span className="text-customGreen">.</span></h1>
+            <TypeAnimation
+              sequence={[
+                'Arwen Encarnacion.', 
+                1500, // Waits 1s
+                'Arwen', 
+                2000, // Waits 2s
+                'Arwen Encarnacion.', 
+                () => {
+                  console.log('Sequence completed');
+                },
+              ]}
+              wrapper="span"
+              cursor={true}
+              repeat={0}
+            />
+            {/* <span className="text-customGreen">.</span> */}
+            </h1>
           <div className="pr-4 md:pr-8 lg:pr-16">
             <p className=' text-content-color 
               font-instrument_sans
