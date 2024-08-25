@@ -57,10 +57,10 @@ export default function Navbar() {
           <Link href="/projects" className="py-1 hover:text-customGreenLight transition delay-100">Projects</Link>
 
           <div className="flex mt-4 space-x-4">
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-customGreenLight transition delay-100">
+            <a href="https://github.com/angele34" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-customGreenLight transition delay-100">
               <FaGithub size={25} />
             </a>
-            <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-customGreenLight transition delay-100">
+            <a href="https://www.linkedin.com/in/angel-arwen-e-3a1b68246/" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-customGreenLight transition delay-100">
               <FaLinkedin size={25} />
             </a>
           </div>
