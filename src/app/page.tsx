@@ -11,7 +11,7 @@ export default function App() {
   return (
     <div className="relative min-h-screen overflow-hidden flex flex-col">
       {/* Grainy bg */}
-      <div className="absolute top-0 left-0 w-full h-full bg-transparent bg-cover z-[-1]" style={{ filter: 'url(/grainy.svg#grain)' }}></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-transparent bg-cover z-[1]" style={{ filter: 'https://en-arwen.tech/grainy.svg#grain' }}></div>
       
       <motion.div
         initial={{ opacity: 0 }}

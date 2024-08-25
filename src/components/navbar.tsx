@@ -40,11 +40,11 @@ export default function Navbar() {
       
       <div className="md:hidden lg:hidden xl:hidden 2xl:hidden grid mr-6">
         {!isOpen ? (
-          <button onClick={toggleMenu} className="text-white focus:outline-none">
+          <button onClick={toggleMenu} className="text-white focus:outline-none  hover:text-customGreenLight transition delay-100 ">
             <RxHamburgerMenu size={30} />
           </button>
         ) : (
-          <button onClick={toggleMenu} className="text-white focus:outline-none absolute top-4 right-4">
+          <button onClick={toggleMenu} className="text-white focus:outline-none absolute top-4 right-4  hover:text-customGreenLight transition delay-100">
             <RxCross2 size={30} />
           </button>
         )}
