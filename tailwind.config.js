@@ -15,7 +15,7 @@ module.exports = {
         'p-xxs': ['0.8rem', '1.2rem'],  
         'p-xs': ['0.9rem', '1.4rem'],        
         'p-md': ['1.1rem', '1.4rem'],        
-        'p-lg': ['1.11rem', '1.4rem'],       
+        'p-lg': ['1.11rem', '1.7rem'],       
         'p-xl': ['1.15rem', '1.7rem'],          
         'p-2xl': ['1.4rem', '2.2rem'],       
       
@@ -24,7 +24,7 @@ module.exports = {
         'h1-xs': ['2.4rem', '3rem'],         
         'h1-sm': ['3rem', '4rem'],           
         'h1-md': ['3.5rem', '4.5rem'],       
-        'h1-lg': ['4rem', '4.5rem'],           
+        'h1-lg': ['4rem', '4.8rem'],           
         'h1-xl': ['4.2rem', '6rem'],         
         'h1-2xl': ['5rem', '7rem'],   
         
@@ -61,7 +61,11 @@ module.exports = {
         'primary': '#FF6363',
         'customGreen': '#70B835',
         'customGreenLight': '#A3C269',
+        'custom2' : '#eaf6cf',
+        'custom3' : '#f8fff8',
+        'custom4' : '#88a750',
         'content-color': '#aeb0aef1',
+        
       },
 
       fontWeight: {
