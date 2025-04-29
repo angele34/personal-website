@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 export default function Hero() {
   return (
-    <div className="relative pb-10 mb-10 px-4 sm:px-8 md:px-16 lg:px-32 flex justify-center">
+    <div className="relative pb-8 mb-10 px-4 sm:px-8 md:px-16 lg:px-32 flex justify-center">
       {/* Gradient Circle on the Left */}
       <div className="absolute custom-top left-[57%] md:left-[45%] sm:left-[28%] xs:left-[25%] transform -translate-y-1/2 w-[30rem] h-[26rem] bg-gradient-radial from-[#91aa5f]/30 to-[#121010]/30 blur-[100px] opacity-80 rounded-full z-0">
       </div>
@@ -21,24 +21,24 @@ export default function Hero() {
         lg:px-8
         xl:mr-52
         ">
-        <div className='pt-16 md:pt-32'>
+        <div className='md:pt-32'>
           <h1 className='text-white break-words font-helvetica font-semibold tracking-widest text-opacity-90 
             xxs:text-h1-xxs
             xs:text-h1-xs
             sm:text-h1-sm 
             md:text-h1-md
-            lg:text-h1-lg
-            xl:text-h1-xl
-            2xl:text-h1-2xl
+            lg:text-h1-md
+            xl:text-h1-md
+            2xl:text-h1-md
             mb-8
             '>
             <TypeAnimation
               sequence={[
-                'Arwen Encarnacion.', 
+                'Angel Arwen E. Reyes', 
                 1500, // Waits 1s
-                'Arwen', 
+                'Angel Arwen', 
                 2000, // Waits 2s
-                'Arwen Encarnacion.', 
+                'Angel Arwen E. Reyes.', 
                 () => {
                   console.log('Sequence completed');
                 },
@@ -49,7 +49,7 @@ export default function Hero() {
             />
             {/* <span className="text-customGreen">.</span> */}
             </h1>
-          <div className="pr-4 md:pr-8 lg:pr-16">
+          <div className="pr-8 md:pr-8 lg:pr-16">
             <p className=' text-content-color 
               font-instrument_sans
               font-normal
@@ -64,7 +64,7 @@ export default function Hero() {
               md:mb-6 
               tracking-wider
               '>
-              Hi! I&apos;m Arwen, a student at DLSU majoring in Computer Science. I&apos;m currently fascinated with Machine Learning and Quantum Computing.
+              Hi! I&apos;m Angel, a student at DLSU majoring in Computer Science. You can read more about the things I'm currently involved with in the School section.
             </p>
             <p className='  text-content-color 
               font-instrument_sans
@@ -76,11 +76,11 @@ export default function Hero() {
               lg:text-p-lg
               xl:text-p-xl
               2xl:text-p-2xl
-              mb-4 
-              md:mb-6 
               tracking-wider
              '>
-              When I&apos;m not behind my computer, I enjoy calligraphy, writing poetry, reading books, and playing electric guitar. If you wish to connect with me, feel free to check out any of my socials!
+              When I&apos;m not behind my computer, I enjoy calligraphy and playing electric guitar. 
+              If you'd like to connect with me, feel free to check out my socials :)
+
             </p>
           </div>
         </div>

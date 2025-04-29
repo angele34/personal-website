@@ -15,7 +15,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="flex justify-between fixed top-0 w-full z-20 border-b border-[#2d2d2de9]">
+    <div className="flex justify-between top-0 w-full z-20 border-b border-[#2d2d2de9]">
       <div className="flex items-center pt-4 pb-4 xs:pl-0 sm:pl-0 md:pl-16 lg:pl-32 xl:pl-36 text-white font-medium text-nav no-underline">
         {!isOpen && (
           <Link href="/">

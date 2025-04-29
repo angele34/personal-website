@@ -64,7 +64,11 @@ module.exports = {
         'custom2' : '#eaf6cf',
         'custom3' : '#f8fff8',
         'custom4' : '#88a750',
+        // 'custom5' : '#efebdf',
+        // 'custom6' : '#f8fff8',
+        // 'custom7': '#89bfa0',
         'content-color': '#aeb0aef1',
+        'content-color-2': '#21201e',
         
       },
 
