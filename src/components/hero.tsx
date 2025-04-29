@@ -64,7 +64,7 @@ export default function Hero() {
               md:mb-6 
               tracking-wider
               '>
-              Hi! I&apos;m Angel, a student at DLSU majoring in Computer Science. You can read more about the things I&apos;m currently involved with in the School section.
+              Hi! I&apos;m Arwen, a student at DLSU majoring in Computer Science. You can read more about the things I&apos;m currently involved with in the School section.
             </p>
             <p className='  text-content-color 
               font-instrument_sans

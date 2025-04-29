@@ -72,29 +72,27 @@ export default function School() {
 
 
       
-  <div className="text-content-color text-left pt-4 pl-48 pb-10">
-    <p>Orgs/Clubs in Campus:</p>
-    <ul className="list-disc pl-6">
-      <li>La Salle Computer Society</li>
-      <li>
-        DLSU Google Developer Student Clubs <span className="italic">(Project Management Developer)</span>
-      </li>
-      <li>DLSU Mathematics Circle</li>
-      <li>AWS Archer&apos;s Club</li>
-      <li>
-        DLSU College of Computer Studies CATCH2T28 <span className="italic">(Research and Development Executive)</span>
-      </li>
-    </ul>
-  </div>
+      <div className="text-content-color text-left pt-4 xl:pl-48 lg:pl-16 md:pl-16 md:pr-16 pb-10 sm:pl-12 xs:pl-8 sm:pr-8 xs:pr-8">
+        <p className="text-white" style={{ textDecoration: 'underline', textDecorationColor: '#A3C269', fontSize: '1.1rem'}}>Orgs/Clubs in Campus:</p>
+        <ul className="list-disc pl-6 pt-2">
+          <li>La Salle Computer Society</li>
+          <li>
+            DLSU Google Developer Student Clubs <span className="italic">(Project Management Developer)</span>
+          </li>
+          <li>DLSU Mathematics Circle</li>
+          <li>AWS Archer&apos;s Club</li>
+          <li>
+            DLSU College of Computer Studies CATCH2T28 <span className="italic">(Research and Development Executive)</span>
+          </li>
+        </ul>
+      </div>
 
-  <div className="text-content-color text-left pl-48 pb-20">
-    <p>Orgs outside campus:</p>
-    <ul className="list-disc pl-6">
-      <li>Quantum Computing Society Philippines <span className="italic">(Web Development Product Engineer)</span></li>
-    </ul>
-  </div>
-
-
+      <div className="text-content-color text-left pt-4 xl:pl-48 lg:pl-16 md:pl-16 md:pr-16 pb-10 sm:pl-12 xs:pl-8 sm:pr-8 xs:pr-8">
+        <p className="text-white" style={{ textDecoration: 'underline', textDecorationColor: '#A3C269', fontSize: '1.1rem' }}>Orgs outside campus:</p>
+        <ul className="list-disc pl-6 pt-2">
+          <li>Quantum Computing Society Philippines <span className="italic">(Web Development Product Engineer)</span></li>
+        </ul>
+      </div>
           <div className="bottom-0 w-full z-10">
             <Footer />
           </div>
