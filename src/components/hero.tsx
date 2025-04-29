@@ -64,7 +64,7 @@ export default function Hero() {
               md:mb-6 
               tracking-wider
               '>
-              Hi! I&apos;m Angel, a student at DLSU majoring in Computer Science. You can read more about the things I&aposm currently involved with in the School section.
+              Hi! I&apos;m Angel, a student at DLSU majoring in Computer Science. You can read more about the things I&apos;m currently involved with in the School section.
             </p>
             <p className='  text-content-color 
               font-instrument_sans
@@ -79,7 +79,7 @@ export default function Hero() {
               tracking-wider
              '>
               When I&apos;m not behind my computer, I enjoy calligraphy and playing electric guitar. 
-              If you&aposd like to connect with me, feel free to check out my socials :)
+              If you&apos;d like to connect with me, feel free to check out my socials :)
 
             </p>
           </div>
