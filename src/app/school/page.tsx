@@ -32,7 +32,7 @@ export default function School() {
             {/* Description */}
             <div className="pl-4">
               <p className=' text-content-color font-instrument_sans font-normal xxs:text-p-xxs xs:text-p-xs sm:text-p-sm md:text-p-md lg:text-p-lg xl:text-p-lg 2xl:text-p-2xl mb-4 md:mb-6 tracking-wider'>
-                I&apos;m currently a 1st-year undergrad student at DLSU, taking Computer Science with a major in <span className="font-semibold">Computer Systems Engineering</span>. You can read about the relevant courses I&apos;m taking and what things I&apos;m currently involved in campus here.
+                I&apos;m currently a 1st-year undergrad student at DLSU, taking Computer Science with a major in <span className="font-semibold">Software Technology</span>. You can read about the relevant courses I&apos;m taking and what things I&apos;m currently involved in campus here.
               </p>
             </div>
 
@@ -41,35 +41,45 @@ export default function School() {
               2024-2025
               </h1>
             </div>
-        </div>
+        
 
         {/* Cards */}
-               
-        <div className="xl:items-center xl:justify-center pb-6 text-center text-content-color-2 px-4">
-          <div className="grid gap-2 2xl:pl-40 2xl:pr-40 xl:pl-40 xl:pr-40 pl-8 pr-8 2xl:grid-cols-3 xl:grid-cols-3 sm:text-p-xs" style={{ fontSize:'0.9rem'}}>
-            <div className="bg-custom2 p-3">CCICOMP <br /> Introduction to Computing</div>
-            <div className="bg-custom2 p-3">CCPROG1 <br /> Logic Formulation and Introductory Programming</div>
-            <div className="bg-custom2 p-3">MTH101A <br /> Foundation Course in Mathematics</div>
-        </div>
-       </div>
+        <div className="pt-8 xl:items-center xl:justify-center pb-4 text-center text-content-color-2 px-4">
+            <div className="grid gap-2 2xl:grid-cols-3 xl:grid-cols-3 sm:text-p-xs"style={{ fontSize:'0.9rem'}}>
+              <div className="bg-custom2 p-3">CCICOMP <br /> Introduction to Computing</div>
+              <div className="bg-custom2 p-3">CCPROG1 <br /> Logic Formulation and Introductory Programming</div>
+              <div className="bg-custom2 p-3">MTH101A <br /> Foundation Course in Mathematics</div>
 
-      <div className="xl:items-center xl:justify-center pb-6 text-center text-content-color-2 px-4">
-          <div className="grid gap-2 2xl:pl-40 2xl:pr-40 xl:pl-40 xl:pr-40 pl-8 pr-8 2xl:grid-cols-3 xl:grid-cols-3 sm:text-p-xs" style={{ fontSize:'0.9rem'}}>
-            <div className="bg-customGreenLight p-3">CSMATH1 <br /> Differential Calculus</div>
-            <div className="bg-customGreenLight p-3 ">CCPROG2 <br /> Programming with Structured Data Types</div>
-            <div className="bg-customGreenLight p-3">CCDSTRU <br /> Discrete Structures</div>
-        </div>
-       </div>
+              <div className="bg-customGreenLight p-3">CSMATH1 <br /> Differential Calculus</div>
+              <div className="bg-customGreenLight p-3 ">CCPROG2 <br /><span style={{ fontSize: '0.8rem'}}> Programming with Structured Data Types</span></div>
+              <div className="bg-customGreenLight p-3">CCDSTRU <br /> Discrete Structures</div>
 
-       <div className="xl:items-center xl:justify-center pb-20 text-center text-content-color-2 px-4">
-          <div className="grid gap-2 2xl:pl-40 2xl:pr-40 xl:pl-40 xl:pr-40 pl-8 pr-8 2xl:grid-cols-3 xl:grid-cols-3 sm:text-p-xs" style={{ fontSize:'0.95rem'}}>
-            <div className="bg-custom2 p-3">CSMATH2 <br /> Linear Algebra</div>
-            <div className="bg-custom2 p-3">CCPROG3 <br /> Object Oriented Programming</div>
-            <div className="bg-custom2 p-3">CCDSALG <br /> Data Structures and Algorithms</div>
-            <div className="bg-customGreenLight p-3">STT101A <br /> Foundation Course in Statistics</div>
+              <div className="bg-custom2 p-3">CSMATH2 <br /> Linear Algebra</div>
+              <div className="bg-custom2 p-3">CCPROG3 <br /> Object Oriented Programming</div>
+              <div className="bg-custom2 p-3">CCDSALG <br /> Data Structures and Algorithms</div>
+              <div className="bg-customGreenLight p-3">STT101A <br /><span style={{ fontSize: '0.85rem'}}> Foundation Course in Statistics</span></div>
+            </div>
         </div>
-       </div>
 
+       <div className='pt-8'>
+          <h1 className="text-white px-4 sm:pl-8 xxs:pl-12 font-normal tracking-widest break-words" style={{ textDecoration: 'underline', textDecorationColor: '#A3C269', fontSize: '1.9rem' }} >
+          2025-2026
+          </h1>
+        </div>
+      
+
+      <div className="pt-8 xl:items-center xl:justify-center pb-4 text-center text-content-color-2 px-4">
+        <div className="grid gap-2 2xl:grid-cols-3 xl:grid-cols-3 sm:text-p-xs"style={{ fontSize:'0.9rem'}}>
+          <div className="bg-customGreenLight p-3">CSADPRG <br /> <span style={{ fontSize: '0.8rem'}}>Advanced Programming and Theory of Programming Languages</span></div>
+          <div className="bg-customGreenLight p-3 ">CCINFOM <br /> Information Management</div>
+          <div className="bg-customGreenLight p-3">CSINTSY <br /> Introduction to Intelligent Systems</div>
+          <div className="bg-custom2 p-3">CSALGCM <br /> Algorithms and Complexity</div>
+        </div>
+      </div>
+    </div>
+
+      
+      
 
       
       <div className="text-content-color text-left pt-4 xl:pl-48 lg:pl-16 md:pl-16 md:pr-16 pb-10 sm:pl-12 xs:pl-8 sm:pr-8 xs:pr-8">
