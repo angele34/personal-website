@@ -53,7 +53,7 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden lg:hidden xl:hidden 2xl:hidden flex flex-col items-center justify-center w-full h-full py-8 text-white text-p-xl">
           <Link href="/school" className="py-1 hover:text-customGreenLight transition delay-100">School</Link>
-          <Link href="#" className="py-1 hover:text-customGreenLight transition delay-100">About</Link>
+          <Link href="/about" className="py-1 hover:text-customGreenLight transition delay-100">About</Link>
           <Link href="/projects" className="py-1 hover:text-customGreenLight transition delay-100">Projects</Link>
 
           <div className="flex mt-4 space-x-4">
