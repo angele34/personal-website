@@ -91,7 +91,7 @@ export default function School() {
         <p className="text-white" style={{ textDecoration: 'underline', textDecorationColor: '#A3C269', fontSize: '1.1rem'}}>Orgs/Clubs in Campus:</p>
         <ul className="list-disc pl-6 pt-2">
           <li>
-            La Salle Computer Society<span className="italic">(Project Management Developer)</span>
+            La Salle Computer Society<span className="italic">(Junior Officer)</span>
           </li>
           <li>
             DLSU Google Developer Student Clubs <span className="italic">(Project Management Developer)</span>
