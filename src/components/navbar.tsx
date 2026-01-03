@@ -24,7 +24,7 @@ export default function Navbar() {
         )}
         <div className="sm:hidden xs:hidden xxs:hidden ">
           <Link href="/school" className="px-2 py-1 hover:text-customGreenLight transition delay-100">School</Link>
-          <Link href="#" className="px-2 py-1 hover:text-customGreenLight transition delay-100">About</Link>
+          <Link href="/about" className="px-2 py-1 hover:text-customGreenLight transition delay-100">About</Link>
           <Link href="/projects" className="px-2 py-1 hover:text-customGreenLight transition delay-100">Projects</Link>
         </div>
       </div>

@@ -70,29 +70,43 @@ export default function School() {
 
       <div className="pt-8 xl:items-center xl:justify-center pb-4 text-center text-content-color-2 px-4">
         <div className="grid gap-2 2xl:grid-cols-3 xl:grid-cols-3 sm:text-p-xs"style={{ fontSize:'0.9rem'}}>
+
           <div className="bg-customGreenLight p-3">CSADPRG <br /> <span style={{ fontSize: '0.8rem'}}>Advanced Programming and Theory of Programming Languages</span></div>
           <div className="bg-customGreenLight p-3 ">CCINFOM <br /> Information Management</div>
           <div className="bg-customGreenLight p-3">CSINTSY <br /> Introduction to Intelligent Systems</div>
           <div className="bg-custom2 p-3">CSALGCM <br /> Algorithms and Complexity</div>
+          <div className="col-span-full h-0"></div>
+
+          <div className="bg-custom2 p-3">CSARCH1 <br /> <span style={{ fontSize: '0.8rem'}}>Introduction to Computer Organization and Architecture 1</span></div>
+          <div className="bg-custom2 p-3 ">CCAPDEV <br /> Web Application Development</div>
+          <div className="bg-custom2 p-3">ST-MATH <br /> Integral Calculus </div>
+          <div className="bg-customGreenLight p-3">ST-ALGCM <br /> Advanced Algorithms and Complexities</div>
+          <div className="col-span-full h-0"></div>
+        
         </div>
       </div>
     </div>
 
-      
-      
-
-      
       <div className="text-content-color text-left pt-4 xl:pl-48 lg:pl-16 md:pl-16 md:pr-16 pb-10 sm:pl-12 xs:pl-8 sm:pr-8 xs:pr-8">
         <p className="text-white" style={{ textDecoration: 'underline', textDecorationColor: '#A3C269', fontSize: '1.1rem'}}>Orgs/Clubs in Campus:</p>
         <ul className="list-disc pl-6 pt-2">
-          <li>La Salle Computer Society</li>
+          <li>
+            La Salle Computer Society<span className="italic">(Project Management Developer)</span>
+          </li>
           <li>
             DLSU Google Developer Student Clubs <span className="italic">(Project Management Developer)</span>
           </li>
-          <li>DLSU Mathematics Circle</li>
-          <li>AWS Archer&apos;s Club</li>
           <li>
             DLSU College of Computer Studies CATCH2T28 <span className="italic">(Research and Development Executive)</span>
+          </li>
+          <li>
+            DLSU Green Giant FM <span className="italic"></span>
+          </li>
+          <li>
+            DLSU Badminton Society
+          </li>
+          <li>
+            DLSU Society of Manufacturing Engineers
           </li>
         </ul>
       </div>
@@ -100,7 +114,7 @@ export default function School() {
       <div className="text-content-color text-left pt-4 xl:pl-48 lg:pl-16 md:pl-16 md:pr-16 pb-10 sm:pl-12 xs:pl-8 sm:pr-8 xs:pr-8">
         <p className="text-white" style={{ textDecoration: 'underline', textDecorationColor: '#A3C269', fontSize: '1.1rem' }}>Orgs outside campus:</p>
         <ul className="list-disc pl-6 pt-2">
-          <li>Quantum Computing Society Philippines <span className="italic">(Web Development Product Engineer)</span></li>
+          <li>Quantum Computing Society PH <span className="italic">(Web Development Product Engineer)</span></li>
         </ul>
       </div>
           <div className="bottom-0 w-full z-10">

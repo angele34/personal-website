@@ -59,7 +59,7 @@ module.exports = {
 
       colors: {
         'primary': '#FF6363',
-        'customGreen': '#70B835',
+        'customGreen': '#baf2bb',
         'customGreenLight': '#A3C269',
         'custom2' : '#eaf6cf',
         'custom3' : '#f8fff8',
