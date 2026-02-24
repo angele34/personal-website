@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function footer() {
   return (
-    <div className=" border-[#2d2d2de9] border-t-[1px] bottom-0 ">
+    (<div className=" border-[#2d2d2de9] border-t-[1px] bottom-0 ">
       <div className='flex justify-center
         xxs:py-2 xxs:px-4 xxs:mt-2 xxs:ml-4
         xs:py-4 xs:px-4 xs:mt-2 xs:ml-4
@@ -24,20 +24,32 @@ export default function footer() {
           2xl:text-p
           tracking-wider
           ">
-            <span className="text-customGreenLight ">© 2025 Angel Arwen E. Reyes. </span>
+            <span className="text-customGreenLight ">© 2026 Angel Arwen E. Reyes. </span>
             All rights reserved. This site is built with {''}
-            <Link href="https://nextjs.org/" legacyBehavior> 
-              <a className= " hover:text-customGreenLight hover:opacity-90 transition delay-120 " target="_blank" rel="noopener noreferrer">NextJS</a>
+            <Link
+              href="https://nextjs.org/"
+              className= " hover:text-customGreenLight hover:opacity-90 transition delay-120 "
+              target="_blank"
+              rel="noopener noreferrer"> 
+              NextJS
             </Link>{' '}
             and {''}
-            <Link href="https://tailwindcss.com/" legacyBehavior>
-              <a className= " hover:text-customGreenLight hover:opacity-90 transition delay-120 " target="_blank" rel="noopener noreferrer">Tailwind CSS</a>
+            <Link
+              href="https://tailwindcss.com/"
+              className= " hover:text-customGreenLight hover:opacity-90 transition delay-120 "
+              target="_blank"
+              rel="noopener noreferrer">
+              Tailwind CSS
             </Link>, designed on {' '} 
-            <Link href="https://www.framer.com/" legacyBehavior> 
-              <a className= " hover:text-customGreenLight hover:opacity-90 transition delay-120 " target="_blank" rel="noopener noreferrer">Framer. </a>
+            <Link
+              href="https://www.framer.com/"
+              className= " hover:text-customGreenLight hover:opacity-90 transition delay-120 "
+              target="_blank"
+              rel="noopener noreferrer"> 
+              Framer. 
             </Link>
         </p>
       </div>
-    </div>
+    </div>)
   );
 }
