@@ -48,6 +48,7 @@ module.exports = {
         helvetica: ['Helvetica', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
         instrument_sans: ['Instrument Sans', 'sans-serif'],
+        sans_serif: ['sans-serif'],
         gtWalsheim: ['GT Walsheim'],
       },
 

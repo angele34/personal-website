@@ -31,7 +31,7 @@ export default function School() {
 
             {/* Description */}
             <div className="pl-4 pr-8">
-              <p className=' text-content-color font-instrument_sans font-normal xxs:text-p-xxs xs:text-p-xs sm:text-p-sm md:text-p-md lg:text-p-lg xl:text-p-lg 2xl:text-p-2xl mb-4 md:mb-6 tracking-wider'>
+              <p className=' text-content-color font-sans_serif font-normal xxs:text-p-xxs xs:text-p-xs sm:text-p-sm md:text-p-md lg:text-p-lg xl:text-p-lg 2xl:text-p-2xl mb-4 md:mb-6 tracking-wider'>
                 I&apos;m currently a Sophomore at DLSU, taking Computer Science with a major in <span className="font-semibold">Software Technology</span>. You can read about the relevant courses I&apos;m taking  what things I&apos;m currently involved in campus here.
               </p>
             </div>
