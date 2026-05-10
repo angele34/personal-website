@@ -11,7 +11,24 @@ export default function App() {
   return (
     <div className="relative min-h-screen overflow-hidden flex flex-col">
       {/* Grainy bg */}
-      <div className="absolute top-0 left-0 w-full h-full bg-transparent bg-cover z-[1]" style={{ filter: 'url(/grainy.svg#grain)' }}></div>
+        <div
+          className="absolute inset-0 pointer-events-none z-[-1] opacity-20"
+          style={{
+            background: "#ffffff",
+            filter: "url(#grain)",
+          }}
+        />
+
+        <svg className="absolute w-0 h-0">
+          <filter id="grain">
+            <feTurbulence
+              type="fractalNoise"
+              baseFrequency="0.8"
+              numOctaves="2"
+              stitchTiles="stitch"
+            />
+          </filter>
+        </svg>
       
       <motion.div
         initial={{ opacity: 0 }}
