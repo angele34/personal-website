@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <div className="flex justify-between top-0 w-full z-20 border-b border-[#2d2d2de9]">
-      <div className="flex items-center pt-4 pb-4 xs:pl-0 sm:pl-0 md:pl-16 lg:pl-32 xl:pl-36 text-white font-medium text-nav no-underline">
+      <div className="flex items-center pt-4 pb-4 px-40 xl:px-20 lg:px-16 md:px-8 sm:px-4 xs:px-4 text-white font-medium text-nav no-underline">
         {!isOpen && (
           <Link href="/">
             <IoCubeOutline size={30} className="cursor-pointer grid ml-8 mr-2 text-white hover:text-customGreenLight transition delay-100" />
@@ -24,7 +24,7 @@ export default function Navbar() {
         )}
         <div className="sm:hidden xs:hidden xxs:hidden ">
           <Link href="/school" className="px-2 py-1 hover:text-customGreenLight transition delay-100">School</Link>
-          <Link href="/about" className="px-2 py-1 hover:text-customGreenLight transition delay-100">About</Link>
+          {/* <Link href="/about" className="px-2 py-1 hover:text-customGreenLight transition delay-100">About</Link> */}
           <Link href="/projects" className="px-2 py-1 hover:text-customGreenLight transition delay-100">Projects</Link>
         </div>
       </div>
