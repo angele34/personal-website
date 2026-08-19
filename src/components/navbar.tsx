@@ -19,32 +19,32 @@ export default function Navbar() {
       <div className="flex items-center pt-4 pb-4 px-40 xl:px-20 lg:px-16 md:px-8 sm:px-4 xs:px-4 text-white font-medium text-nav no-underline">
         {!isOpen && (
           <Link href="/">
-            <IoCubeOutline size={30} className="cursor-pointer grid ml-8 mr-2 text-white hover:text-customGreenLight transition delay-100" />
+            <IoCubeOutline size={30} className="cursor-pointer grid ml-8 mr-2 text-white hover:text-green-light transition delay-100" />
           </Link>
         )}
         <div className="sm:hidden xs:hidden xxs:hidden ">
-          <Link href="/school" className="px-2 py-1 hover:text-customGreenLight transition delay-100">School</Link>
-          {/* <Link href="/about" className="px-2 py-1 hover:text-customGreenLight transition delay-100">About</Link> */}
-          <Link href="/projects" className="px-2 py-1 hover:text-customGreenLight transition delay-100">Projects</Link>
+          <Link href="/school" className="px-2 py-1 hover:text-green-light transition delay-100">School</Link>
+          {/* <Link href="/about" className="px-2 py-1 hover:text-green-light transition delay-100">About</Link> */}
+          <Link href="/projects" className="px-2 py-1 hover:text-green-light transition delay-100">Projects</Link>
         </div>
       </div>
 
       <div className="sm:hidden xs:hidden xxs:hidden flex items-center space-x-4 pr-20">
-        <a href="https://github.com/angele34" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-customGreenLight transition delay-100">
+        <a href="https://github.com/angele34" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-green-light transition delay-100">
           <FaGithub size={25} />
         </a>
-        <a href="https://www.linkedin.com/in/angel-arwen-e-3a1b68246/" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-customGreenLight transition delay-100">
+        <a href="https://www.linkedin.com/in/angel-arwen-e-3a1b68246/" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-green-light transition delay-100">
           <FaLinkedin size={25} />
         </a>
       </div>
       
       <div className="md:hidden lg:hidden xl:hidden 2xl:hidden grid mr-6">
         {!isOpen ? (
-          <button onClick={toggleMenu} className="text-white focus:outline-none  hover:text-customGreenLight transition delay-100 ">
+          <button onClick={toggleMenu} className="text-white focus:outline-none  hover:text-green-light transition delay-100 ">
             <RxHamburgerMenu size={30} />
           </button>
         ) : (
-          <button onClick={toggleMenu} className="text-white focus:outline-none absolute top-4 right-4  hover:text-customGreenLight transition delay-100">
+          <button onClick={toggleMenu} className="text-white focus:outline-none absolute top-4 right-4  hover:text-green-light transition delay-100">
             <RxCross2 size={30} />
           </button>
         )}
@@ -52,15 +52,15 @@ export default function Navbar() {
     
       {isOpen && (
         <div className="md:hidden lg:hidden xl:hidden 2xl:hidden flex flex-col items-center justify-center w-full h-full py-8 text-white text-p-xl">
-          <Link href="/school" className="py-1 hover:text-customGreenLight transition delay-100">School</Link>
-          <Link href="/about" className="py-1 hover:text-customGreenLight transition delay-100">About</Link>
-          <Link href="/projects" className="py-1 hover:text-customGreenLight transition delay-100">Projects</Link>
+          <Link href="/school" className="py-1 hover:text-green-light transition delay-100">School</Link>
+          <Link href="/about" className="py-1 hover:text-green-light transition delay-100">About</Link>
+          <Link href="/projects" className="py-1 hover:text-green-light transition delay-100">Projects</Link>
 
           <div className="flex mt-4 space-x-4">
-            <a href="https://github.com/angele34" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-customGreenLight transition delay-100">
+            <a href="https://github.com/angele34" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-green-light transition delay-100">
               <FaGithub size={25} />
             </a>
-            <a href="https://www.linkedin.com/in/angel-arwen-e-3a1b68246/" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-customGreenLight transition delay-100">
+            <a href="https://www.linkedin.com/in/angel-arwen-e-3a1b68246/" target="_blank" rel="noopener noreferrer" className="cursor-pointer text-white hover:text-green-light transition delay-100">
               <FaLinkedin size={25} />
             </a>
           </div>
