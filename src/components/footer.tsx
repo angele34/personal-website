@@ -14,7 +14,7 @@ export default function footer() {
         2xl:py-12 2xl:px-24 2xl:mt-8 2xl:ml-3
         '>
           
-        <p className="font-medium font-inter text-content-color
+        <p className="font-medium font-inter text-content
           xxs:text-p-xxs
           xs:text-p-footer
           sm:text-p-sm
@@ -24,11 +24,11 @@ export default function footer() {
           2xl:text-p
           tracking-wider
           ">
-            <span className="text-customGreenLight ">© 2026 Angel Arwen E. Reyes. </span>
+            <span className="text-green-light ">© 2026 Angel Arwen E. Reyes. </span>
             All rights reserved. This site is built with {''}
             <Link
               href="https://nextjs.org/"
-              className= " hover:text-customGreenLight hover:opacity-90 transition delay-120 "
+              className= " hover:text-green-light hover:opacity-90 transition delay-120 "
               target="_blank"
               rel="noopener noreferrer"> 
               NextJS
@@ -36,14 +36,14 @@ export default function footer() {
             and {''}
             <Link
               href="https://tailwindcss.com/"
-              className= " hover:text-customGreenLight hover:opacity-90 transition delay-120 "
+              className= " hover:text-green-light hover:opacity-90 transition delay-120 "
               target="_blank"
               rel="noopener noreferrer">
               Tailwind CSS
             </Link>, designed on {' '} 
             <Link
               href="https://www.framer.com/"
-              className= " hover:text-customGreenLight hover:opacity-90 transition delay-120 "
+              className= " hover:text-green-light hover:opacity-90 transition delay-120 "
               target="_blank"
               rel="noopener noreferrer"> 
               Framer. 

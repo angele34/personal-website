@@ -46,10 +46,10 @@ export default function Hero() {
               cursor={true}
               repeat={0}
             />
-            {/* <span className="text-customGreen">.</span> */}
+            {/* <span className="text-green">.</span> */}
             </h1>
           <div className="pr-8 md:pr-8 lg:pr-16">
-            <p className=' text-content-color 
+            <p className=' text-content 
               font-sans_serif
               font-normal
               xxs:text-p-xxs
@@ -65,7 +65,7 @@ export default function Hero() {
               '>
               Hi! I&apos;m Arwen, a student at DLSU majoring in Computer Science. You can read more about the things I&apos;m currently involved with in the School section.
             </p>
-            <p className='  text-content-color 
+            <p className='  text-content 
               font-sans_serif
               font-normal
               xxs:text-p-xxs
