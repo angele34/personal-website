@@ -9,19 +9,16 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        'p-footer': ['0.8rem', '1.2rem'],
-        'p-footer-lg': ['1.08rem', '1.2rem'],
-
-        // p
+        // Paragraph
         'p-xxs': ['0.8rem', '1.2rem'],
         'p-xs': ['0.9rem', '1.4rem'],
-        'p-sm': ['1rem', '1.4rem'], 
+        'p-sm': ['1rem', '1.4rem'],
         'p-md': ['1.1rem', '1.4rem'],
         'p-lg': ['1.11rem', '1.7rem'],
         'p-xl': ['1.15rem', '1.7rem'],
         'p-2xl': ['1.4rem', '2.2rem'],
 
-        // h1
+        // Headings
         'h1-xxs': ['2rem', '2.5rem'],
         'h1-xs': ['2.4rem', '3rem'],
         'h1-sm': ['3rem', '4rem'],
