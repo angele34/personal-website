@@ -1,55 +1,50 @@
 import Link from 'next/link';
 import React from 'react';
 
-export default function footer() {
+const techLinks = [
+  { name: 'NextJS', href: 'https://nextjs.org/' },
+  { name: 'Tailwind CSS', href: 'https://tailwindcss.com/' },
+  { name: 'Framer', href: 'https://www.framer.com/' },
+];
+
+export default function Footer() {
   return (
-    (<div className=" border-[#2d2d2de9] border-t-[1px] bottom-0 ">
-      <div className='flex justify-center
-        xxs:py-2 xxs:px-4 xxs:mt-2 xxs:ml-4
-        xs:py-4 xs:px-4 xs:mt-2 xs:ml-4
-        sm:py-6 sm:px-4 sm:mt-3 sm:ml-4
-        md:py-8 md:px-8 md:mt-4 md:ml-8
-        lg:py-8 lg:px-16 lg:mt-4 lg:ml-4
-        xl:py-8 xl:px-20 xl:mt-4 xl:ml-2.5
-        2xl:py-12 2xl:px-24 2xl:mt-8 2xl:ml-3
-        '>
-          
-        <p className="font-medium font-inter text-content
-          xxs:text-p-xxs
-          xs:text-p-footer
-          sm:text-p-sm
-          md:text-p-md
-          lg:text-p-footer-lg
-          xl:text-p-footer-lg
-          2xl:text-p
-          tracking-wider
-          ">
-            <span className="text-green-light ">© 2026 Angel Arwen E. Reyes. </span>
-            All rights reserved. This site is built with {''}
-            <Link
-              href="https://nextjs.org/"
-              className= " hover:text-green-light hover:opacity-90 transition delay-120 "
-              target="_blank"
-              rel="noopener noreferrer"> 
-              NextJS
-            </Link>{' '}
-            and {''}
-            <Link
-              href="https://tailwindcss.com/"
-              className= " hover:text-green-light hover:opacity-90 transition delay-120 "
-              target="_blank"
-              rel="noopener noreferrer">
-              Tailwind CSS
-            </Link>, designed on {' '} 
-            <Link
-              href="https://www.framer.com/"
-              className= " hover:text-green-light hover:opacity-90 transition delay-120 "
-              target="_blank"
-              rel="noopener noreferrer"> 
-              Framer. 
-            </Link>
+    <footer className="border-t border-[#2d2d2de9]">
+      <div className="flex justify-center px-4 py-8 sm:px-6 sm:py-6 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
+        <p className="font-inter tracking-wider text-content xs:text-p-xs text-p-md 2xl:text-p-2xl">
+          <span className="text-green-light">
+            © 2026 Angel Arwen E. Reyes.
+          </span>{' '}
+          All rights reserved. This site is built with{' '}
+          <Link
+            href="https://nextjs.org/"
+            className="transition hover:text-green-light hover:opacity-90"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            NextJS
+          </Link>{' '}
+          and{' '}
+          <Link
+            href="https://tailwindcss.com/"
+            className="transition hover:text-green-light hover:opacity-90"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tailwind CSS
+          </Link>
+          , designed on{' '}
+          <Link
+            href="https://www.framer.com/"
+            className="transition hover:text-green-light hover:opacity-90"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Framer
+          </Link>
+          .
         </p>
       </div>
-    </div>)
+    </footer>
   );
 }
