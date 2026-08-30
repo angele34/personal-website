@@ -13,7 +13,7 @@ module.exports = {
         'p-xxs': ['0.8rem', '1.2rem'],
         'p-xs': ['0.9rem', '1.4rem'],
         'p-sm': ['1rem', '1.4rem'],
-        'p-md': ['1.1rem', '1.4rem'],
+        'p-md': ['1.1rem', '1.5rem'],
         'p-lg': ['1.11rem', '1.7rem'],
         'p-xl': ['1.15rem', '1.7rem'],
         'p-2xl': ['1.4rem', '2.2rem'],
