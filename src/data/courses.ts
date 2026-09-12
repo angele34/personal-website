@@ -61,12 +61,12 @@ export const courseHistory: CourseYear[] = [
       [
         { code: 'STSWENG', name: 'Advanced Software Engineering' },
         { code: 'STADVDB', name: 'Advanced Database Systems' },
-        { code: 'CSARCH2', name: 'Introduction to Computer Organization and Architecture 2' },
-        { code: 'LBYARCH', name: 'Laboratory for Computer Organization and Architecture' },
+        { code: 'EMPATHY', name: 'Emphatic Computing in Human-System Interaction' },
       ],
       [
-        { code: 'EMPATHY', name: 'Emphatic Computing in Human-System Interaction' },
         { code: 'ITSECUR', name: 'Introduction to Security' },
+        { code: 'CSARCH2', name: 'Introduction to Computer Organization and Architecture 2' },
+        { code: 'LBYARCH', name: 'Laboratory for Computer Organization and Architecture' },
       ],
     ]
     },
@@ -80,11 +80,11 @@ export type Org = {
 export const campusOrgs: Org[] = [
   { name: 'La Salle Computer Society', role: 'Junior Officer' },
   { name: 'DLSU Google Developer Student Clubs', role: 'Project Management Developer' },
-  { name: 'DLSU College of Computer Studies CATCH2T28', role: 'Research and Development Executive' },
   { name: 'DLSU Badminton Society' },
   { name: 'DLSU Society of Manufacturing Engineers' },
 ];
 
 export const outsideOrgs: Org[] = [
   { name: 'Quantum Computing Society PH', role: 'Web Development Product Engineer' },
+  { name: 'IEEE Industrial Electronics & Photonics PH Joint Chapter', role: 'TechDev Committee Member' },
 ];
