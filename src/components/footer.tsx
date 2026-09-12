@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-[#2d2d2de9]">
       <div className="flex justify-center px-4 py-8 sm:px-6 sm:py-6 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
-        <p className="font-inter tracking-wider text-content xs:text-p-xs text-p-md 2xl:text-p-2xl">
+        <p className="font-inter tracking-wider text-content text-h1-s">
           <span className="text-green-light">
             © 2026 Angel Arwen E. Reyes.
           </span>{' '}
