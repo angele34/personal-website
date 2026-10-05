@@ -63,7 +63,7 @@ export default function Hero() {
               md:mb-6 
               tracking-wider
               '>
-              Hi! I&apos;m Arwen, a student at DLSU majoring in Computer Science. You can read more about the things I&apos;m currently involved with in the School section.
+              Hi! I&apos;m Arwen, a student at DLSU majoring in Computer Science and a research student at the Center of Language Technologies (CeLT).
             </p>
             <p className='  text-content 
               font-sans_serif
@@ -77,9 +77,8 @@ export default function Hero() {
               2xl:text-p-2xl
               tracking-wider
              '>
-              When I&apos;m not behind my computer, I enjoy calligraphy and playing electric guitar. 
-              If you&apos;d like to connect with me, feel free to check out my socials :)
-
+              
+                You can read more about what I&apos;m currently involved with in the School section, or connect with me on LinkedIn.
             </p>
           </div>
         </div>

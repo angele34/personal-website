@@ -82,6 +82,7 @@ export const campusOrgs: Org[] = [
   { name: 'DLSU Google Developer Student Clubs', role: 'Project Management Developer' },
   { name: 'DLSU Badminton Society' },
   { name: 'DLSU Society of Manufacturing Engineers' },
+  { name: 'DLSU Brazillian Jiu Jitsu and Grappling Organization' },
 ];
 
 export const outsideOrgs: Org[] = [
